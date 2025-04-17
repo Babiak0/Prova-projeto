@@ -59,7 +59,7 @@ header nav ul {
 .circle {
   position: absolute;
   bottom: -300px;
-  top: 30em;
+  top: 22em;
   right: -200px;
   width: 400px;
   height: 400px;
@@ -72,17 +72,16 @@ header nav ul {
 
 
 .circle2 {
-  position: absolute;
-  bottom: -300px; 
-  left: -160px;   
-  top: 40em;
-  width: 300px;
-  height: 300px;
+  position: absolute; 
+  left: -79px;   
+  top: -2em;
+  width: 200px;
+  height: 200px;
   background-color: rgb(12, 49, 76);
   border-radius: 50%;
   opacity: 0.5;
   z-index: 0;
-  animation: pulseCircle2 6s ease-in-out infinite;
+  animation: pulseCircle2 2s ease-in-out infinite;
 }
 
 
@@ -90,7 +89,7 @@ header nav ul {
   0%, 100% {
     transform: scale(1);
   }
-  50% {
+  59% {
     transform: scale(1.1);
   }
 }
@@ -117,7 +116,7 @@ header nav ul {
 
 .title {
   color: rgba(5, 66, 110, 0.748);
-  margin-left: 220px;
+  margin-left: 5em;
   margin-top: 5%;
   font-size: 35px;
   font-family: 'National Park', Arial;
@@ -148,7 +147,7 @@ header nav ul {
 .descricao{
   color: black;
   margin-top: 40px;
-  margin-left: 235px;
+  margin-left: 11em;
   line-height: 1.5; /*espaçamento entre linhas*/
   font-weight: bold;
   font-size: 17px;
@@ -186,92 +185,4 @@ h1::after {
   border-radius: 10px;
   z-index: 1; 
   border: 3px solid rgba(12, 49, 76, 0.825); 
-}
-
-
-/*linha*/
-
-/* .linha{
-  display: inline-block;
-  margin-top: 12em;
-}
-
-.linha::after {
-  content: "";
-  display: block;
-  width: 100em; 
-  height: 4px; 
-  background-color: #000; 
-  border-radius: 2px;
-} */
-
-.linha {
-  display: inline-block;
-  margin-top: 12em;
-}
-
-.linha::after {
-  content: "";
-  display: block;
-  width: 100em; 
-  height: 4px; 
-  background-color: #000; 
-  border-radius: 2px;
-}
-
-/* .linha::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 4px;
-  background-color: #000;
-  border-radius: 2px;
-
-  animation: loadingLoop 2s ease-in-out infinite alternate;
-}
-
-@keyframes loadingLoop {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100em;
-  }
-} */
-
-
-
-/*sessão 2 */
-
-.sobre2{
-  text-align: center;
-  margin-top: 6em;
-  font-family: 'National Park', Arial;
-}
-
-.imagem-2 img{
-  position: absolute;
-  width: 20em;
-  margin-left: 6%;
-  margin-top: 90px;
-  border-radius: 10px;
-  z-index: 2; /*deixa a imagem acima do circulo*/
-}
-
-.imagem-3 img{
-  position: absolute;
-  width: 20em;
-  margin-left: 38%;
-  margin-top: 90px;
-  border-radius: 10px;
-  z-index: 2; /*deixa a imagem acima do circulo*/
-}
-
-.imagem-4 img{
-  position: absolute;
-  width: 20em;
-  margin-left: 69%;
-  margin-top: 90px;
-  border-radius: 10px;
-  z-index: 2; /*deixa a imagem acima do circulo*/
 }
