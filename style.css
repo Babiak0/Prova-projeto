@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 
 /* menu */
 
-header{
+header {
   padding: 40px 8%;
 }
 
-header > .interface{
+header > .interface {
   display: flex;
   justify-content: space-evenly;
 }
 
-header a{
+header a {
   color: rgb(0, 0, 0);
   text-decoration: none;
 }
@@ -120,7 +120,7 @@ header nav ul {
   font-family: 'National Park', Arial;
 }
 
-.title span{
+.title span {
   opacity: 0;
   display: inline-block;
   transform: translateY(20px);
@@ -134,11 +134,11 @@ header nav ul {
   }
 }
 
-.title strong{
+.title strong {
   color: #000000d1;
 }
 
-.descricao{
+.descricao {
   color: black;
   margin-top: 40px;
   margin-left: 11em;
@@ -161,7 +161,7 @@ h1::after {
 
 /* imagem */
 
-.imagem img{
+.imagem img {
   position: absolute;
   width: 20em;
   margin-left: 69%;
@@ -170,7 +170,7 @@ h1::after {
   z-index: 2; /*deixa a imagem acima do circulo*/
 }
 
-.borda-imagem{
+.borda-imagem {
   position: absolute;
   width: 20em;
   height: 27em;
